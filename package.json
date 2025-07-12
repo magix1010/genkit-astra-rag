@@ -1,0 +1,25 @@
+{
+    "name": "genkit-astra-rag",
+    "version": "0.1.0",
+    "description": "A Genkit package for Astra RAG",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsx --env-file .env ./index.ts",
+        "genkit": "genkit start -- npm start"
+    },
+    "keywords": [],
+    "author": "magix1010",
+    "license": "MIT",
+    "dependencies": {
+        "@genkit-ai/googleai": "^1.6.0",
+        "@mozilla/readability": "^0.6.0",
+        "genkit": "^1.6.0",
+        "genkitx-astra-db": "^0.3.0",
+        "jsdom": "^26.0.0",
+        "llm-chunk": "^0.0.1"
+    },
+    "devDependencies": {
+        "genkit-cli": "^1.6.0",
+        "tsx": "^4.20.0"
+    }
+}
